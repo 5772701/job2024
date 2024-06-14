@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<yml_catalog date="2024-06-17 12:10">
+    <shop>
+        <name>Аркада-Мед»</name>
+        <company>ООО «Аркада-Мед»</company>
+        <url>https://arkada-med.ru/</url>
+        <email>service@arkada-med.ru</email>
+        <picture>https://static.tildacdn.com/tild3265-3163-4830-b437-323336626362/ArkadaMedLogo.png</picture>
+        <description>Каталог врачей</description>
+        <currencies>
+          <currency id="RUR" rate="1" />
+        </currencies>
+        <categories>
+            <category id="1">Врач</category>
+        </categories>
+
+        <sets>
+            <set id="stomatolog-ortoped">
+                <name>Стоматолог,стоматолог-ортопед</name>
+                <url>https://arkada-med.ru/orthopedics</url>
+            </set>
+			<set id="stomatolog-implantolog">
+                <name>Стоматолог,стоматолог-имплантолог</name>
+                <url>https://arkada-med.ru/implantology</url>
+            </set>
+			<set id="stomatolog-terapevt">
+                <name>Стоматолог,стоматолог-терапевт</name>
+                <url>https://arkada-med.ru/therapy</url>
+            </set>
+			<set id="stomatolog-khirurg">
+                <name>Стоматолог,стоматолог-хирург</name>
+                <url>https://arkada-med.ru/surgery</url>
+            </set>
+            <set id="stomatolog-ortodont">
+                <name>Стоматолог,стоматолог-ортодонт</name>
+                <url>https://arkada-med.ru/orthodontics</url>
+            </set>
+			
+        </sets>
+        <offers>
+            <!--
+                Оффер для врача - это связка "Врач"-"Клиника"-"Тип приема".
+                При наличии у врача нескольких офферов нужно предоставить каждый из них отдельно.
+                В таком случае URL разных офферов одного врача должны различаться незначащим cgi-параметром ?offer-id=...
+
+            -->
+            <!--group_id - уникальный идентификтаор врача. нужен при наличии разных URL у одного человека. Целое число, не более 9 знаков-->
+            <offer id="vrach110" group_id="95722"> 
+                <name>Аветисян Геворг Норикович</name> <!--ФИО, именно в таком порядке-->
+                <!--URL может совпадать ТОЛЬКО для офферов с одинаковым group_id.-->
+                <url>https://arkada-med.ru/avetisyan_gevorg</url><!--URL карточки врача. -->
+                <price from="true">1000</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
+                <oldprice>1800</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
+                <currencyId>RUR</currencyId>
+                <sales_notes>Первичный прием</sales_notes>
+                <set-ids>stomatolog,stomatolog-ortoped,stomatolog-implantolog,stomatolog-terapevt,stomatolog-khirurg</set-ids> <!--специальности через запятую-->
+                <picture>https://static.tildacdn.com/tild3239-3865-4164-b564-363064656461/B32-topaz21.png</picture>
+                <description>Основные направления профессиональной деятельности: Опытный врач-стоматолог широкого профиля, ведет прием как хирург, ортопед и имплантолог. Аветисян Геворг Норикович проводит: удаление зубов любой сложности; зубосохраняющие операции; синус-лифтинг; костную пластику; дентальное протезирование; имплантацию. Ведет прием пациентов с 2010 года.
+				</description>
+                <categoryId>1</categoryId>
+                <!--Пустых блоков param быть не должно. Если необязательное поле не заполнено, его нужно исключить из фида-->
+                <param name="Фамилия">Аветисян</param>
+                <param name="Имя">Геворг</param>
+                <param name="Отчество">Норикович</param>
+                <param name="Годы опыта">17</param>
+                <param name="Начало карьеры">2010-01-01</param> <!--Дата начала карьеры, для подсчета стажа-->
+                <param name="Город">г. Москва</param>
+                <param name="Взрослый врач">true</param> <!--Принимает взрослых, от 18 лет-->
+                <param name="Ссылка на профиль врача">https://arkada-med.ru/avetisyan_gevorg</param>
+                <param name="Город клиники">г. Москва</param>
+                <param name="Адрес клиники">пр-т Буденного, д.37, к. 1</param>
+                <param name="Название клиники">«Аркада-Мед»</param>
+                <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
+                <param name="Телефон для записи">+7(495)365-19-29</param> <!--Можно подменник аггрегатора-->
+            </offer>
+			<offer id="vrach112" group_id="95723"> 
+                <name>Акимов Сергей Викторович</name> <!--ФИО, именно в таком порядке-->
+                <!--URL может совпадать ТОЛЬКО для офферов с одинаковым group_id.-->
+                <url>https://arkada-med.ru/akimov_sergey</url><!--URL карточки врача. -->
+                <price from="true">0</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
+                <oldprice>0</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
+                <currencyId>RUR</currencyId>
+                <sales_notes>Первичный прием</sales_notes>
+                <set-ids>stomatolog,stomatolog-khirurg</set-ids> <!--специальности через запятую-->
+                <picture>https://static.tildacdn.com/tild6130-3834-4231-a637-396165643139/___ArkadaMed.png</picture>
+                <description>Основные направления деятельности: Проведение консультации с чтением компьютерной томографии и составлением комплексного плана лечения; Удаление зубов любой сложности; Дентальная имплантация; Костная пластика; Пластическая хирургия мягких тканей.Профгигиена полости рта; Лечение кариеса. Ведёт приём пациентов с 2014 года.
+				</description>
+                <categoryId>1</categoryId>
+                <!--Пустых блоков param быть не должно. Если необязательное поле не заполнено, его нужно исключить из фида-->
+                <param name="Фамилия">Акимов</param>
+                <param name="Имя">Сергей</param>
+                <param name="Отчество">Викторович</param>
+                <param name="Годы опыта">10</param>
+                <param name="Начало карьеры">2014-06-03</param> <!--Дата начала карьеры, для подсчета стажа-->
+                <param name="Город">г. Москва</param>
+                <param name="Взрослый врач">true</param> <!--Принимает взрослых, от 18 лет-->
+                <param name="Ссылка на профиль врача">https://arkada-med.ru/akimov_sergey</param>
+                <param name="Город клиники">г. Москва</param>
+                <param name="Адрес клиники">пр-т Буденного, д.37, к. 1</param>
+                <param name="Название клиники">«Аркада-Мед»</param>
+                <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
+                <param name="Телефон для записи">+7(495)365-19-29</param> <!--Можно подменник аггрегатора-->
+            </offer>
+			<offer id="vrach113" group_id="94724"> 
+                <name>Шкурат Ольга Владимировна</name> <!--ФИО, именно в таком порядке-->
+                <!--URL может совпадать ТОЛЬКО для офферов с одинаковым group_id.-->
+                <url>https://arkada-med.ru/shkurat_olga</url><!--URL карточки врача. -->
+                <price from="true">0</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
+                <oldprice>0</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
+                <currencyId>RUR</currencyId>
+                <sales_notes>Первичный прием</sales_notes>
+                <set-ids>stomatolog,stomatolog-ortodont</set-ids> <!--специальности через запятую-->
+                <picture>https://static.tildacdn.com/tild3264-3832-4162-a364-653565343463/B23.png</picture>
+                <description>Лечение кариеса и его осложнений молочных и постоянных зубов, эндодонтическое лечение каналов, профессиональная гигиена полости рта, обучение гигиене полости рта и коррекция навыков индивидуальной гигиены, подбор основных и дополнительных средств индивидуальной гигиены полости рта, аппаратное отбеливание зубов, удаление подвижных молочных зубов, умение просто объяснить «сложные» процедуры и успокоить ребёнка. Ведёт приём пациентов с 2019 года.
+
+				</description>
+                <categoryId>1</categoryId>
+                <!--Пустых блоков param быть не должно. Если необязательное поле не заполнено, его нужно исключить из фида-->
+                <param name="Фамилия">Шкурат</param>
+                <param name="Имя">Ольга</param>
+                <param name="Отчество">Владимировна</param>
+                <param name="Годы опыта">5</param>
+                <param name="Начало карьеры">2019-04-20</param> <!--Дата начала карьеры, для подсчета стажа-->
+                <param name="Город">г. Москва</param>
+                <param name="Детский врач">false</param> <!--Принимает детей, до 18 лет-->
+                <param name="Ссылка на профиль врача">https://arkada-med.ru/shkurat_olga</param>
+                <param name="Город клиники">г. Москва</param>
+                <param name="Адрес клиники">пр-т Буденного, д.37, к. 1</param>
+                <param name="Название клиники">«Аркада-Мед»</param>
+                <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
+                <param name="Телефон для записи">+7(495)365-19-29</param> <!--Можно подменник аггрегатора-->
+            </offer>
+			<offer id="vrach113" group_id="94725"> 
+                <name>Малютина Татьяна Александровна</name> <!--ФИО, именно в таком порядке-->
+                <!--URL может совпадать ТОЛЬКО для офферов с одинаковым group_id.-->
+                <url>https://arkada-med.ru/malyutina_tatyana</url><!--URL карточки врача. -->
+                <price from="true">0</price>  <!--Цена приема при записи в источнике фида, с учетом скидки -->
+                <oldprice>0</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
+                <currencyId>RUR</currencyId>
+                <sales_notes>Первичный прием</sales_notes>
+                <set-ids>stomatolog,stomatolog-ortoped,stomatolog-terapevt,stomatolog-khirurg</set-ids> <!--специальности через запятую-->
+                <picture>https://static.tildacdn.com/tild3062-3833-4634-b364-393339616163/B4.png</picture>
+                <description>Диагностика заболеваний полости рта и височно-нижнечелюстного сустава, работа с артикулятором, работа со внутриротовым сканером, изготовление коронок, накладок, вкладок, восстановление зубов стекловолоконным штифтом, изготовление коронок на имплантах, на витальных (живых) зубах, тотальное протезирование, изготовление виниров, изготовление съемных протезов, работа с увеличением.  Ведёт приём пациентов с 1983 года.
+				</description>
+                <categoryId>1</categoryId>
+                <!--Пустых блоков param быть не должно. Если необязательное поле не заполнено, его нужно исключить из фида-->
+                <param name="Фамилия">Малютина</param>
+                <param name="Имя">Татьяна</param>
+                <param name="Отчество">Александровна</param>
+                <param name="Годы опыта">41</param>
+                <param name="Начало карьеры">1983-03-015</param> <!--Дата начала карьеры, для подсчета стажа-->
+                <param name="Город">г. Москва</param>
+                <param name="Взрослый врач">true</param> <!--Принимает взрослых, от 18 лет-->
+                <param name="Ссылка на профиль врача">https://arkada-med.ru/malyutina_tatyana</param>
+                <param name="Город клиники">г. Москва</param>
+                <param name="Адрес клиники">пр-т Буденного, д.37, к. 1</param>
+                <param name="Название клиники">«Аркада-Мед»</param>
+                <param name="Возможность записи">true</param> <!--Возможность записаться на прием через сайт-поставщик фида-->
+                <param name="Телефон для записи">+7(495)365-19-29</param> <!--Можно подменник аггрегатора-->
+            </offer>
+            
+        </offers>
+    </shop>
+</yml_catalog>
+
