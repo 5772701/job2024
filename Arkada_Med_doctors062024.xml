@@ -15,24 +15,24 @@
         </categories>
 
         <sets>
-            <set id="stomatolog-ortoped">
-                <name>Стоматолог,стоматолог-ортопед</name>
+            <set id="ortoped">
+                <name>Ортопед</name>
                 <url>https://arkada-med.ru/orthopedics</url>
             </set>
-			<set id="stomatolog-implantolog">
-                <name>Стоматолог,стоматолог-имплантолог</name>
+			<set id="implantolog">
+                <name>Имплантолог</name>
                 <url>https://arkada-med.ru/implantology</url>
             </set>
-			<set id="stomatolog-terapevt">
-                <name>Стоматолог,стоматолог-терапевт</name>
+			<set id="terapevt">
+                <name>Терапевт</name>
                 <url>https://arkada-med.ru/therapy</url>
             </set>
-			<set id="stomatolog-khirurg">
-                <name>Стоматолог,стоматолог-хирург</name>
+			<set id="khirurg">
+                <name>Хирург</name>
                 <url>https://arkada-med.ru/surgery</url>
             </set>
-            <set id="stomatolog-ortodont">
-                <name>Стоматолог,стоматолог-ортодонт</name>
+            <set id="ortodont">
+                <name>Ортодонт</name>
                 <url>https://arkada-med.ru/orthodontics</url>
             </set>
 			
@@ -53,7 +53,7 @@
                 <oldprice>0</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
                 <currencyId>RUR</currencyId>
                 <sales_notes>Первичный прием</sales_notes>
-                <set-ids>stomatolog-ortoped,stomatolog-implantolog,stomatolog-terapevt,stomatolog-khirurg</set-ids> <!--специальности через запятую-->
+                <set-ids>ortoped,implantolog,terapevt,khirurg</set-ids> <!--специальности через запятую-->
                 <picture>https://static.tildacdn.com/tild3239-3865-4164-b564-363064656461/B32-topaz21.png</picture>
                 <description>Основные направления профессиональной деятельности: Опытный врач-стоматолог широкого профиля, ведет прием как хирург, ортопед и имплантолог. Аветисян Геворг Норикович проводит: удаление зубов любой сложности; зубосохраняющие операции; синус-лифтинг; костную пластику; дентальное протезирование; имплантацию. Ведет прием пациентов с 2010 года.
 				</description>
@@ -81,7 +81,7 @@
                 <oldprice>0</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
                 <currencyId>RUR</currencyId>
                 <sales_notes>Первичный прием</sales_notes>
-                <set-ids>stomatolog-khirurg</set-ids> <!--специальности через запятую-->
+                <set-ids>khirurg</set-ids> <!--специальности через запятую-->
                 <picture>https://static.tildacdn.com/tild6130-3834-4231-a637-396165643139/___ArkadaMed.png</picture>
                 <description>Основные направления деятельности: Проведение консультации с чтением компьютерной томографии и составлением комплексного плана лечения; Удаление зубов любой сложности; Дентальная имплантация; Костная пластика; Пластическая хирургия мягких тканей.Профгигиена полости рта; Лечение кариеса. Ведёт приём пациентов с 2014 года.
 				</description>
@@ -109,7 +109,7 @@
                 <oldprice>0</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
                 <currencyId>RUR</currencyId>
                 <sales_notes>Первичный прием</sales_notes>
-                <set-ids>stomatolog-ortodont</set-ids> <!--специальности через запятую-->
+                <set-ids>ortodont</set-ids> <!--специальности через запятую-->
                 <picture>https://static.tildacdn.com/tild3264-3832-4162-a364-653565343463/B23.png</picture>
                 <description>Лечение кариеса и его осложнений молочных и постоянных зубов, эндодонтическое лечение каналов, профессиональная гигиена полости рта, обучение гигиене полости рта и коррекция навыков индивидуальной гигиены, подбор основных и дополнительных средств индивидуальной гигиены полости рта, аппаратное отбеливание зубов, удаление подвижных молочных зубов, умение просто объяснить «сложные» процедуры и успокоить ребёнка. Ведёт приём пациентов с 2019 года.
 
@@ -138,7 +138,7 @@
                 <oldprice>0</oldprice>  <!--Цена приема в клинике, должна быть не ниже price-->
                 <currencyId>RUR</currencyId>
                 <sales_notes>Первичный прием</sales_notes>
-                <set-ids>stomatolog-ortoped,stomatolog-terapevt,stomatolog-khirurg</set-ids> <!--специальности через запятую-->
+                <set-ids>ortoped,terapevt,khirurg</set-ids> <!--специальности через запятую-->
                 <picture>https://static.tildacdn.com/tild3062-3833-4634-b364-393339616163/B4.png</picture>
                 <description>Диагностика заболеваний полости рта и височно-нижнечелюстного сустава, работа с артикулятором, работа со внутриротовым сканером, изготовление коронок, накладок, вкладок, восстановление зубов стекловолоконным штифтом, изготовление коронок на имплантах, на витальных (живых) зубах, тотальное протезирование, изготовление виниров, изготовление съемных протезов, работа с увеличением.  Ведёт приём пациентов с 1983 года.
 				</description>
@@ -162,4 +162,3 @@
         </offers>
     </shop>
 </yml_catalog>
-
