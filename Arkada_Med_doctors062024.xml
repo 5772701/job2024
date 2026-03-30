@@ -1,455 +1,567 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<yml_catalog date="2026-03-30 00:10">
-    <shop>
-        <n>Аркада-Мед</n>
-        <company>ООО «Аркада-Мед»</company>
-        <url>https://arkada-med.ru/</url>
-        <email>service@arkada-med.ru</email>
-        <picture>https://static.tildacdn.com/tild3265-3163-4830-b437-323336626362/ArkadaMedLogo.png</picture>
-        <description>Каталог врачей</description>
-        <currencies>
-          <currency id="RUR" rate="1" />
-        </currencies>
-        <categories>
-            <category id="1">Врач</category>
-        </categories>
+<?xml version="1.0" encoding="utf-8"?>
+<shop version="2.0" date="2026-03-30 00:10">
+	<n>Аркада-Мед</n>
+	<company>ООО «Аркада-Мед»</company>
+	<url>https://arkada-med.ru/</url>
+	<picture>https://static.tildacdn.com/tild3265-3163-4830-b437-323336626362/ArkadaMedLogo.png</picture>
+	<email>service@arkada-med.ru</email>
 
-        <sets>
-            <set id="ortoped">
-                <n>Ортопед</n>
-                <url>https://arkada-med.ru/orthopedics</url>
-            </set>
-            <set id="implantolog">
-                <n>Имплантолог</n>
-                <url>https://arkada-med.ru/implantology</url>
-            </set>
-            <set id="terapevt">
-                <n>Терапевт</n>
-                <url>https://arkada-med.ru/therapy</url>
-            </set>
-            <set id="khirurg">
-                <n>Хирург</n>
-                <url>https://arkada-med.ru/surgery</url>
-            </set>
-            <set id="ortodont">
-                <n>Ортодонт</n>
-                <url>https://arkada-med.ru/orthodontics</url>
-            </set>
-        </sets>
-        <offers>
-            <!-- ===================== АВЕТИСЯН ГЕВОРГ НОРИКОВИЧ ===================== -->
-            <!-- Оффер 1: Первичный приём (бесплатный) -->
-            <offer id="vrach110" group_id="95722">
-                <n>Аветисян Геворг Норикович</n>
-                <url>https://arkada-med.ru/avetisyan_gevorg</url>
-                <price from="true">0</price>
-                <oldprice>0</oldprice>
-                <currencyId>RUR</currencyId>
-                <sales_notes>Первичный прием — бесплатно</sales_notes>
-                <set-ids>ortoped,implantolog,terapevt,khirurg</set-ids>
-                <picture>https://static.tildacdn.com/tild3239-3865-4164-b564-363064656461/B32-topaz21.png</picture>
-                <description>Главный врач клиники «Аркада-Мед». Опытный врач-стоматолог широкого профиля, ведет прием как хирург, ортопед и имплантолог. Проводит: удаление зубов любой сложности, зубосохраняющие операции, синус-лифтинг, костную пластику, дентальное протезирование, имплантацию. Ведет прием пациентов с 2010 года.</description>
-                <categoryId>1</categoryId>
-                <param name="Фамилия">Аветисян</param>
-                <param name="Имя">Геворг</param>
-                <param name="Отчество">Норикович</param>
-                <param name="Начало карьеры">2010-01-01</param>
-                <param name="Город">г. Москва</param>
-                <param name="Взрослый врач">true</param>
-                <param name="Ссылка на профиль врача">https://arkada-med.ru/avetisyan_gevorg</param>
-                <param name="Город клиники">г. Москва</param>
-                <param name="Адрес клиники">пр-т Буденного, д.37, к. 1</param>
-                <param name="Название клиники">«Аркада-Мед»</param>
-                <param name="Возможность записи">true</param>
-                <param name="Телефон для записи">+7(495)365-19-29</param>
-            </offer>
-            <!-- Оффер 2: Имплантация -->
-            <offer id="vrach110_impl" group_id="95722">
-                <n>Аветисян Геворг Норикович</n>
-                <url>https://arkada-med.ru/avetisyan_gevorg?offer-id=impl</url>
-                <price from="true">35000</price>
-                <oldprice>35000</oldprice>
-                <currencyId>RUR</currencyId>
-                <sales_notes>Имплантация Hi-Tec / Dentium</sales_notes>
-                <set-ids>implantolog,khirurg</set-ids>
-                <picture>https://static.tildacdn.com/tild3239-3865-4164-b564-363064656461/B32-topaz21.png</picture>
-                <description>Установка дентального импланта Hi-Tec (Израиль) или Dentium (Корея). Включает операцию установки одного импланта. Также доступна имплантация Nobel (Швейцария) — 70 000 руб. Консультация и составление плана лечения — бесплатно.</description>
-                <categoryId>1</categoryId>
-                <param name="Фамилия">Аветисян</param>
-                <param name="Имя">Геворг</param>
-                <param name="Отчество">Норикович</param>
-                <param name="Начало карьеры">2010-01-01</param>
-                <param name="Город">г. Москва</param>
-                <param name="Взрослый врач">true</param>
-                <param name="Ссылка на профиль врача">https://arkada-med.ru/avetisyan_gevorg</param>
-                <param name="Город клиники">г. Москва</param>
-                <param name="Адрес клиники">пр-т Буденного, д.37, к. 1</param>
-                <param name="Название клиники">«Аркада-Мед»</param>
-                <param name="Возможность записи">true</param>
-                <param name="Телефон для записи">+7(495)365-19-29</param>
-            </offer>
-            <!-- Оффер 3: Протезирование (коронки) -->
-            <offer id="vrach110_prot" group_id="95722">
-                <n>Аветисян Геворг Норикович</n>
-                <url>https://arkada-med.ru/avetisyan_gevorg?offer-id=prot</url>
-                <price from="true">14000</price>
-                <oldprice>14000</oldprice>
-                <currencyId>RUR</currencyId>
-                <sales_notes>Протезирование зубов</sales_notes>
-                <set-ids>ortoped</set-ids>
-                <picture>https://static.tildacdn.com/tild3239-3865-4164-b564-363064656461/B32-topaz21.png</picture>
-                <description>Протезирование зубов: коронка металлокерамическая — от 14 000 руб., коронка циркониевая — 35 000 руб., циркониевая коронка на имплант — 47 000 руб., винир керамический — 35 000 руб. Консультация ортопеда — бесплатно.</description>
-                <categoryId>1</categoryId>
-                <param name="Фамилия">Аветисян</param>
-                <param name="Имя">Геворг</param>
-                <param name="Отчество">Норикович</param>
-                <param name="Начало карьеры">2010-01-01</param>
-                <param name="Город">г. Москва</param>
-                <param name="Взрослый врач">true</param>
-                <param name="Ссылка на профиль врача">https://arkada-med.ru/avetisyan_gevorg</param>
-                <param name="Город клиники">г. Москва</param>
-                <param name="Адрес клиники">пр-т Буденного, д.37, к. 1</param>
-                <param name="Название клиники">«Аркада-Мед»</param>
-                <param name="Возможность записи">true</param>
-                <param name="Телефон для записи">+7(495)365-19-29</param>
-            </offer>
-            <!-- Оффер 4: Удаление зубов -->
-            <offer id="vrach110_surg" group_id="95722">
-                <n>Аветисян Геворг Норикович</n>
-                <url>https://arkada-med.ru/avetisyan_gevorg?offer-id=surg</url>
-                <price from="true">4000</price>
-                <oldprice>4000</oldprice>
-                <currencyId>RUR</currencyId>
-                <sales_notes>Удаление зубов</sales_notes>
-                <set-ids>khirurg</set-ids>
-                <picture>https://static.tildacdn.com/tild3239-3865-4164-b564-363064656461/B32-topaz21.png</picture>
-                <description>Удаление зубов любой сложности: удаление средней сложности — 4 000 руб., сложное удаление — 6 000 руб., зуб мудрости — 8 000 руб., ретинированный зуб мудрости — 15 000 руб. Консультация хирурга — бесплатно.</description>
-                <categoryId>1</categoryId>
-                <param name="Фамилия">Аветисян</param>
-                <param name="Имя">Геворг</param>
-                <param name="Отчество">Норикович</param>
-                <param name="Начало карьеры">2010-01-01</param>
-                <param name="Город">г. Москва</param>
-                <param name="Взрослый врач">true</param>
-                <param name="Ссылка на профиль врача">https://arkada-med.ru/avetisyan_gevorg</param>
-                <param name="Город клиники">г. Москва</param>
-                <param name="Адрес клиники">пр-т Буденного, д.37, к. 1</param>
-                <param name="Название клиники">«Аркада-Мед»</param>
-                <param name="Возможность записи">true</param>
-                <param name="Телефон для записи">+7(495)365-19-29</param>
-            </offer>
+	<doctors>
+		<doctor id="doctor_avetisyan">
+			<n>Аветисян Геворг Норикович</n>
+			<first_name>Геворг</first_name>
+			<surname>Аветисян</surname>
+			<patronymic>Норикович</patronymic>
+			<career_start_date>2010-01-01</career_start_date>
+			<description>Главный врач клиники «Аркада-Мед». Опытный врач-стоматолог широкого профиля. Проводит удаление зубов любой сложности, зубосохраняющие операции, синус-лифтинг, костную пластику, дентальное протезирование, имплантацию.</description>
+		</doctor>
+		<doctor id="doctor_akimov">
+			<n>Акимов Сергей Викторович</n>
+			<first_name>Сергей</first_name>
+			<surname>Акимов</surname>
+			<patronymic>Викторович</patronymic>
+			<career_start_date>1994-06-03</career_start_date>
+			<description>Хирург-стоматолог с опытом работы более 30 лет. Проводит консультации с чтением компьютерной томографии и составлением комплексного плана лечения. Удаление зубов любой сложности, дентальная имплантация, костная пластика, пластическая хирургия мягких тканей.</description>
+		</doctor>
+		<doctor id="doctor_shkurat">
+			<n>Шкурат Ольга Владимировна</n>
+			<first_name>Ольга</first_name>
+			<surname>Шкурат</surname>
+			<patronymic>Владимировна</patronymic>
+			<career_start_date>2019-04-20</career_start_date>
+			<description>Врач-ортодонт. Лечение на брекет-системах и элайнерах для детей и взрослых. Исправление прикуса, выравнивание зубов. Лечение кариеса молочных и постоянных зубов, профессиональная гигиена, аппаратное отбеливание.</description>
+		</doctor>
+		<doctor id="doctor_malyutina">
+			<n>Малютина Татьяна Александровна</n>
+			<first_name>Татьяна</first_name>
+			<surname>Малютина</surname>
+			<patronymic>Александровна</patronymic>
+			<career_start_date>1983-03-15</career_start_date>
+			<description>Врач-стоматолог с опытом работы более 40 лет. Диагностика заболеваний полости рта и ВНЧС, работа с артикулятором и внутриротовым сканером, изготовление коронок, накладок, вкладок, виниров, тотальное протезирование, съёмные протезы.</description>
+		</doctor>
+		<doctor id="doctor_osipyan">
+			<n>Осипян Армен Рубенович</n>
+			<first_name>Армен</first_name>
+			<surname>Осипян</surname>
+			<patronymic>Рубенович</patronymic>
+			<career_start_date>2001-09-10</career_start_date>
+			<description>Опытный врач-стоматолог, ведет прием как терапевт и ортопед. Лечит кариес, пульпит, периодонтит и заболевания пародонта в полном объёме. Занимается восстановлением и протезированием зубов.</description>
+		</doctor>
+	</doctors>
 
-            <!-- ===================== АКИМОВ СЕРГЕЙ ВИКТОРОВИЧ ===================== -->
-            <!-- Оффер 1: Первичный приём -->
-            <offer id="vrach112" group_id="95723">
-                <n>Акимов Сергей Викторович</n>
-                <url>https://arkada-med.ru/akimov_sergey</url>
-                <price from="true">0</price>
-                <oldprice>0</oldprice>
-                <currencyId>RUR</currencyId>
-                <sales_notes>Первичный прием — бесплатно</sales_notes>
-                <set-ids>khirurg</set-ids>
-                <picture>https://static.tildacdn.com/tild6130-3834-4231-a637-396165643139/___ArkadaMed.png</picture>
-                <description>Хирург-стоматолог с опытом работы более 30 лет. Проводит консультации с чтением компьютерной томографии и составлением комплексного плана лечения. Удаление зубов любой сложности, дентальная имплантация, костная пластика, пластическая хирургия мягких тканей, профгигиена полости рта, лечение кариеса. Ведёт приём пациентов с 1994 года.</description>
-                <categoryId>1</categoryId>
-                <param name="Фамилия">Акимов</param>
-                <param name="Имя">Сергей</param>
-                <param name="Отчество">Викторович</param>
-                <param name="Начало карьеры">1994-06-03</param>
-                <param name="Город">г. Москва</param>
-                <param name="Взрослый врач">true</param>
-                <param name="Ссылка на профиль врача">https://arkada-med.ru/akimov_sergey</param>
-                <param name="Город клиники">г. Москва</param>
-                <param name="Адрес клиники">пр-т Буденного, д.37, к. 1</param>
-                <param name="Название клиники">«Аркада-Мед»</param>
-                <param name="Возможность записи">true</param>
-                <param name="Телефон для записи">+7(495)365-19-29</param>
-            </offer>
-            <!-- Оффер 2: Удаление зубов -->
-            <offer id="vrach112_surg" group_id="95723">
-                <n>Акимов Сергей Викторович</n>
-                <url>https://arkada-med.ru/akimov_sergey?offer-id=surg</url>
-                <price from="true">4000</price>
-                <oldprice>4000</oldprice>
-                <currencyId>RUR</currencyId>
-                <sales_notes>Удаление зубов</sales_notes>
-                <set-ids>khirurg</set-ids>
-                <picture>https://static.tildacdn.com/tild6130-3834-4231-a637-396165643139/___ArkadaMed.png</picture>
-                <description>Удаление зубов любой сложности: удаление средней сложности — 4 000 руб., сложное удаление — 6 000 руб., зуб мудрости — 8 000 руб., сложное удаление зуба мудрости — 12 000 руб., ретинированный зуб мудрости — 15 000 руб. Консультация хирурга — бесплатно.</description>
-                <categoryId>1</categoryId>
-                <param name="Фамилия">Акимов</param>
-                <param name="Имя">Сергей</param>
-                <param name="Отчество">Викторович</param>
-                <param name="Начало карьеры">1994-06-03</param>
-                <param name="Город">г. Москва</param>
-                <param name="Взрослый врач">true</param>
-                <param name="Ссылка на профиль врача">https://arkada-med.ru/akimov_sergey</param>
-                <param name="Город клиники">г. Москва</param>
-                <param name="Адрес клиники">пр-т Буденного, д.37, к. 1</param>
-                <param name="Название клиники">«Аркада-Мед»</param>
-                <param name="Возможность записи">true</param>
-                <param name="Телефон для записи">+7(495)365-19-29</param>
-            </offer>
-            <!-- Оффер 3: Имплантация -->
-            <offer id="vrach112_impl" group_id="95723">
-                <n>Акимов Сергей Викторович</n>
-                <url>https://arkada-med.ru/akimov_sergey?offer-id=impl</url>
-                <price from="true">35000</price>
-                <oldprice>35000</oldprice>
-                <currencyId>RUR</currencyId>
-                <sales_notes>Имплантация зубов</sales_notes>
-                <set-ids>khirurg</set-ids>
-                <picture>https://static.tildacdn.com/tild6130-3834-4231-a637-396165643139/___ArkadaMed.png</picture>
-                <description>Дентальная имплантация: имплант Hi-Tec (Израиль) — 35 000 руб., Dentium (Корея) — 35 000 руб., Nobel (Швейцария) — 70 000 руб. Костная пластика — 15 000 руб. Консультация с чтением КТ — бесплатно.</description>
-                <categoryId>1</categoryId>
-                <param name="Фамилия">Акимов</param>
-                <param name="Имя">Сергей</param>
-                <param name="Отчество">Викторович</param>
-                <param name="Начало карьеры">1994-06-03</param>
-                <param name="Город">г. Москва</param>
-                <param name="Взрослый врач">true</param>
-                <param name="Ссылка на профиль врача">https://arkada-med.ru/akimov_sergey</param>
-                <param name="Город клиники">г. Москва</param>
-                <param name="Адрес клиники">пр-т Буденного, д.37, к. 1</param>
-                <param name="Название клиники">«Аркада-Мед»</param>
-                <param name="Возможность записи">true</param>
-                <param name="Телефон для записи">+7(495)365-19-29</param>
-            </offer>
+	<clinics>
+		<clinic id="clinic_arkada">
+			<url>https://arkada-med.ru/</url>
+			<picture>https://static.tildacdn.com/tild3265-3163-4830-b437-323336626362/ArkadaMedLogo.png</picture>
+			<n>Аркада-Мед</n>
+			<city>г. Москва</city>
+			<address>пр-т Буденного, д.37, к. 1</address>
+			<email>service@arkada-med.ru</email>
+			<phone>+7(495)365-19-29</phone>
+		</clinic>
+	</clinics>
 
-            <!-- ===================== ШКУРАТ ОЛЬГА ВЛАДИМИРОВНА ===================== -->
-            <!-- Оффер 1: Первичный приём -->
-            <offer id="vrach113" group_id="95724">
-                <n>Шкурат Ольга Владимировна</n>
-                <url>https://arkada-med.ru/shkurat_olga</url>
-                <price from="true">0</price>
-                <oldprice>0</oldprice>
-                <currencyId>RUR</currencyId>
-                <sales_notes>Первичный прием — бесплатно</sales_notes>
-                <set-ids>ortodont</set-ids>
-                <picture>https://static.tildacdn.com/tild3264-3832-4162-a364-653565343463/B23.png</picture>
-                <description>Врач-ортодонт. Лечение на брекет-системах и элайнерах для детей и взрослых. Исправление прикуса, выравнивание зубов. Лечение кариеса молочных и постоянных зубов, профессиональная гигиена, обучение гигиене полости рта, аппаратное отбеливание. Ведёт приём пациентов с 2019 года.</description>
-                <categoryId>1</categoryId>
-                <param name="Фамилия">Шкурат</param>
-                <param name="Имя">Ольга</param>
-                <param name="Отчество">Владимировна</param>
-                <param name="Начало карьеры">2019-04-20</param>
-                <param name="Город">г. Москва</param>
-                <param name="Детский врач">true</param>
-                <param name="Взрослый врач">true</param>
-                <param name="Ссылка на профиль врача">https://arkada-med.ru/shkurat_olga</param>
-                <param name="Город клиники">г. Москва</param>
-                <param name="Адрес клиники">пр-т Буденного, д.37, к. 1</param>
-                <param name="Название клиники">«Аркада-Мед»</param>
-                <param name="Возможность записи">true</param>
-                <param name="Телефон для записи">+7(495)365-19-29</param>
-            </offer>
-            <!-- Оффер 2: Брекет-системы -->
-            <offer id="vrach113_brk" group_id="95724">
-                <n>Шкурат Ольга Владимировна</n>
-                <url>https://arkada-med.ru/shkurat_olga?offer-id=brk</url>
-                <price from="true">45000</price>
-                <oldprice>45000</oldprice>
-                <currencyId>RUR</currencyId>
-                <sales_notes>Брекет-системы</sales_notes>
-                <set-ids>ortodont</set-ids>
-                <picture>https://static.tildacdn.com/tild3264-3832-4162-a364-653565343463/B23.png</picture>
-                <description>Установка брекет-систем: частичная детская (2×4) — 45 000 руб., металлическая лигатурная — 75 000 руб., эстетическая — 105 000 руб., самолигирующая Damon Clear — 170 000 руб. Консультация ортодонта — бесплатно.</description>
-                <categoryId>1</categoryId>
-                <param name="Фамилия">Шкурат</param>
-                <param name="Имя">Ольга</param>
-                <param name="Отчество">Владимировна</param>
-                <param name="Начало карьеры">2019-04-20</param>
-                <param name="Город">г. Москва</param>
-                <param name="Детский врач">true</param>
-                <param name="Взрослый врач">true</param>
-                <param name="Ссылка на профиль врача">https://arkada-med.ru/shkurat_olga</param>
-                <param name="Город клиники">г. Москва</param>
-                <param name="Адрес клиники">пр-т Буденного, д.37, к. 1</param>
-                <param name="Название клиники">«Аркада-Мед»</param>
-                <param name="Возможность записи">true</param>
-                <param name="Телефон для записи">+7(495)365-19-29</param>
-            </offer>
-            <!-- Оффер 3: Элайнеры -->
-            <offer id="vrach113_aln" group_id="95724">
-                <n>Шкурат Ольга Владимировна</n>
-                <url>https://arkada-med.ru/shkurat_olga?offer-id=aln</url>
-                <price from="true">65000</price>
-                <oldprice>65000</oldprice>
-                <currencyId>RUR</currencyId>
-                <sales_notes>Элайнеры (каппы)</sales_notes>
-                <set-ids>ortodont</set-ids>
-                <picture>https://static.tildacdn.com/tild3264-3832-4162-a364-653565343463/B23.png</picture>
-                <description>Лечение на элайнерах: детские каппы Light (до 4 шагов) — 65 000 руб., Middle (до 6 шагов) — 85 000 руб., Full (до 8 шагов) — 105 000 руб. Взрослые элайнеры: Quick-one — 85 000 руб., Easy-one — 130 000 руб., Pro-one — от 340 000 руб. Консультация ортодонта — бесплатно.</description>
-                <categoryId>1</categoryId>
-                <param name="Фамилия">Шкурат</param>
-                <param name="Имя">Ольга</param>
-                <param name="Отчество">Владимировна</param>
-                <param name="Начало карьеры">2019-04-20</param>
-                <param name="Город">г. Москва</param>
-                <param name="Детский врач">true</param>
-                <param name="Взрослый врач">true</param>
-                <param name="Ссылка на профиль врача">https://arkada-med.ru/shkurat_olga</param>
-                <param name="Город клиники">г. Москва</param>
-                <param name="Адрес клиники">пр-т Буденного, д.37, к. 1</param>
-                <param name="Название клиники">«Аркада-Мед»</param>
-                <param name="Возможность записи">true</param>
-                <param name="Телефон для записи">+7(495)365-19-29</param>
-            </offer>
+	<services>
+		<service id="svc_consult_ter">
+			<n>Прием врача-стоматолога-терапевта первичный</n>
+			<gov_id>В01.065.001</gov_id>
+			<description>Первичный осмотр и консультация врача-стоматолога-терапевта</description>
+		</service>
+		<service id="svc_consult_ort">
+			<n>Прием врача-стоматолога-ортопеда первичный</n>
+			<gov_id>В01.066.002</gov_id>
+			<description>Первичный осмотр и консультация врача-стоматолога-ортопеда</description>
+		</service>
+		<service id="svc_consult_surg">
+			<n>Прием врача-стоматолога-хирурга первичный</n>
+			<gov_id>В01.067.001</gov_id>
+			<description>Первичный осмотр и консультация врача-стоматолога-хирурга</description>
+		</service>
+		<service id="svc_consult_ortod">
+			<n>Прием врача-стоматолога-ортодонта первичный</n>
+			<gov_id>В01.063.001</gov_id>
+			<description>Первичный осмотр и консультация врача-стоматолога-ортодонта</description>
+		</service>
+		<service id="svc_caries_1">
+			<n>Лечение кариеса (одна поверхность)</n>
+			<gov_id>А16.07.002</gov_id>
+			<description>Лечение кариеса пломбой световой полимеризации на одну поверхность</description>
+		</service>
+		<service id="svc_implant_hitec">
+			<n>Имплантация Hi-Tec (Израиль)</n>
+			<gov_id>А16.07.054</gov_id>
+			<description>Операция установки одного дентального импланта Hi-Tec (Израиль)</description>
+		</service>
+		<service id="svc_implant_dentium">
+			<n>Имплантация Dentium (Корея)</n>
+			<gov_id>А16.07.054</gov_id>
+			<description>Операция установки одного дентального импланта Dentium (Корея)</description>
+		</service>
+		<service id="svc_crown_mk">
+			<n>Коронка металлокерамическая</n>
+			<gov_id>А23.07.002</gov_id>
+			<description>Изготовление и установка металлокерамической коронки</description>
+		</service>
+		<service id="svc_crown_zr">
+			<n>Коронка циркониевая</n>
+			<gov_id>А16.07.005</gov_id>
+			<description>Изготовление и установка циркониевой коронки</description>
+		</service>
+		<service id="svc_removal_mid">
+			<n>Удаление зуба средней сложности</n>
+			<gov_id>А16.07.001</gov_id>
+			<description>Удаление постоянного зуба средней сложности</description>
+		</service>
+		<service id="svc_removal_wisdom">
+			<n>Удаление зуба мудрости</n>
+			<gov_id>А16.07.001</gov_id>
+			<description>Удаление зуба мудрости</description>
+		</service>
+		<service id="svc_cleaning">
+			<n>Комплексная чистка зубов</n>
+			<gov_id>А16.07.051</gov_id>
+			<description>Комплексная чистка зубов (Air-flow + ультразвук + полировка)</description>
+		</service>
+		<service id="svc_brk_metal">
+			<n>Брекет-система металлическая лигатурная</n>
+			<gov_id>А16.07.048</gov_id>
+			<description>Металлическая брекет-система лигатурная (2 челюсти)</description>
+		</service>
+		<service id="svc_brk_estetic">
+			<n>Брекет-система эстетическая</n>
+			<gov_id>А16.07.048</gov_id>
+			<description>Эстетическая брекет-система (2 челюсти)</description>
+		</service>
+		<service id="svc_aligner_quick">
+			<n>Элайнеры Quick-one</n>
+			<gov_id>А16.07.035</gov_id>
+			<description>Каппа Quick-one (от 1 до 5 флексов), элайнеры для взрослых</description>
+		</service>
+		<service id="svc_prosthesis">
+			<n>Съемный протез</n>
+			<gov_id>А16.07.035</gov_id>
+			<description>Изготовление съёмного зубного протеза</description>
+		</service>
+	</services>
 
-            <!-- ===================== МАЛЮТИНА ТАТЬЯНА АЛЕКСАНДРОВНА ===================== -->
-            <!-- Оффер 1: Первичный приём -->
-            <offer id="vrach114" group_id="94725">
-                <n>Малютина Татьяна Александровна</n>
-                <url>https://arkada-med.ru/malyutina_tatyana</url>
-                <price from="true">0</price>
-                <oldprice>0</oldprice>
-                <currencyId>RUR</currencyId>
-                <sales_notes>Первичный прием — бесплатно</sales_notes>
-                <set-ids>ortoped,terapevt,khirurg</set-ids>
-                <picture>https://static.tildacdn.com/tild3062-3833-4634-b364-393339616163/B4.png</picture>
-                <description>Врач-стоматолог с опытом работы более 40 лет. Диагностика заболеваний полости рта и ВНЧС, работа с артикулятором и внутриротовым сканером, изготовление коронок, накладок, вкладок, виниров, тотальное протезирование, изготовление съёмных протезов, работа с увеличением. Ведёт приём пациентов с 1983 года.</description>
-                <categoryId>1</categoryId>
-                <param name="Фамилия">Малютина</param>
-                <param name="Имя">Татьяна</param>
-                <param name="Отчество">Александровна</param>
-                <param name="Начало карьеры">1983-03-15</param>
-                <param name="Город">г. Москва</param>
-                <param name="Взрослый врач">true</param>
-                <param name="Ссылка на профиль врача">https://arkada-med.ru/malyutina_tatyana</param>
-                <param name="Город клиники">г. Москва</param>
-                <param name="Адрес клиники">пр-т Буденного, д.37, к. 1</param>
-                <param name="Название клиники">«Аркада-Мед»</param>
-                <param name="Возможность записи">true</param>
-                <param name="Телефон для записи">+7(495)365-19-29</param>
-            </offer>
-            <!-- Оффер 2: Протезирование -->
-            <offer id="vrach114_prot" group_id="94725">
-                <n>Малютина Татьяна Александровна</n>
-                <url>https://arkada-med.ru/malyutina_tatyana?offer-id=prot</url>
-                <price from="true">14000</price>
-                <oldprice>14000</oldprice>
-                <currencyId>RUR</currencyId>
-                <sales_notes>Протезирование зубов</sales_notes>
-                <set-ids>ortoped</set-ids>
-                <picture>https://static.tildacdn.com/tild3062-3833-4634-b364-393339616163/B4.png</picture>
-                <description>Протезирование зубов: коронка металлокерамическая — от 14 000 руб., коронка циркониевая — 35 000 руб., винир керамический — 35 000 руб., съёмный протез — от 28 000 руб., бюгельный протез — от 45 000 руб. Консультация — бесплатно.</description>
-                <categoryId>1</categoryId>
-                <param name="Фамилия">Малютина</param>
-                <param name="Имя">Татьяна</param>
-                <param name="Отчество">Александровна</param>
-                <param name="Начало карьеры">1983-03-15</param>
-                <param name="Город">г. Москва</param>
-                <param name="Взрослый врач">true</param>
-                <param name="Ссылка на профиль врача">https://arkada-med.ru/malyutina_tatyana</param>
-                <param name="Город клиники">г. Москва</param>
-                <param name="Адрес клиники">пр-т Буденного, д.37, к. 1</param>
-                <param name="Название клиники">«Аркада-Мед»</param>
-                <param name="Возможность записи">true</param>
-                <param name="Телефон для записи">+7(495)365-19-29</param>
-            </offer>
-            <!-- Оффер 3: Лечение кариеса -->
-            <offer id="vrach114_ter" group_id="94725">
-                <n>Малютина Татьяна Александровна</n>
-                <url>https://arkada-med.ru/malyutina_tatyana?offer-id=ter</url>
-                <price from="true">5000</price>
-                <oldprice>5000</oldprice>
-                <currencyId>RUR</currencyId>
-                <sales_notes>Лечение кариеса</sales_notes>
-                <set-ids>terapevt</set-ids>
-                <picture>https://static.tildacdn.com/tild3062-3833-4634-b364-393339616163/B4.png</picture>
-                <description>Лечение кариеса пломбой световой полимеризации: на одну поверхность — 5 000 руб., на две — 6 000 руб., на три и более — 7 000 руб. Реставрация зуба (винир) — 9 000 руб. Комплексная чистка зубов — 7 000 руб. Консультация терапевта — бесплатно.</description>
-                <categoryId>1</categoryId>
-                <param name="Фамилия">Малютина</param>
-                <param name="Имя">Татьяна</param>
-                <param name="Отчество">Александровна</param>
-                <param name="Начало карьеры">1983-03-15</param>
-                <param name="Город">г. Москва</param>
-                <param name="Взрослый врач">true</param>
-                <param name="Ссылка на профиль врача">https://arkada-med.ru/malyutina_tatyana</param>
-                <param name="Город клиники">г. Москва</param>
-                <param name="Адрес клиники">пр-т Буденного, д.37, к. 1</param>
-                <param name="Название клиники">«Аркада-Мед»</param>
-                <param name="Возможность записи">true</param>
-                <param name="Телефон для записи">+7(495)365-19-29</param>
-            </offer>
+	<offers>
+		<!-- ===== АВЕТИСЯН: Первичный приём хирурга (базовая услуга) ===== -->
+		<offer id="offer_avet_consult_surg">
+			<url>https://arkada-med.ru/avetisyan_gevorg</url>
+			<appointment>true</appointment>
+			<service id="svc_consult_surg"/>
+			<clinic id="clinic_arkada">
+				<doctor id="doctor_avetisyan">
+					<speciality>стоматолог-хирург</speciality>
+					<adult_appointment>true</adult_appointment>
+					<is_base_service>true</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
+		<!-- АВЕТИСЯН: Первичный приём ортопеда (базовая) -->
+		<offer id="offer_avet_consult_ort">
+			<url>https://arkada-med.ru/avetisyan_gevorg?offer-id=ort</url>
+			<appointment>true</appointment>
+			<service id="svc_consult_ort"/>
+			<clinic id="clinic_arkada">
+				<doctor id="doctor_avetisyan">
+					<speciality>стоматолог-ортопед</speciality>
+					<adult_appointment>true</adult_appointment>
+					<is_base_service>true</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
+		<!-- АВЕТИСЯН: Имплантация Hi-Tec -->
+		<offer id="offer_avet_impl_hitec">
+			<url>https://arkada-med.ru/avetisyan_gevorg?offer-id=impl-hitec</url>
+			<appointment>true</appointment>
+			<price>
+				<base_price>35000</base_price>
+				<currency>RUB</currency>
+			</price>
+			<service id="svc_implant_hitec"/>
+			<clinic id="clinic_arkada">
+				<doctor id="doctor_avetisyan">
+					<speciality>стоматолог-хирург</speciality>
+					<adult_appointment>true</adult_appointment>
+					<is_base_service>false</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
+		<!-- АВЕТИСЯН: Имплантация Dentium -->
+		<offer id="offer_avet_impl_dentium">
+			<url>https://arkada-med.ru/avetisyan_gevorg?offer-id=impl-dentium</url>
+			<appointment>true</appointment>
+			<price>
+				<base_price>35000</base_price>
+				<currency>RUB</currency>
+			</price>
+			<service id="svc_implant_dentium"/>
+			<clinic id="clinic_arkada">
+				<doctor id="doctor_avetisyan">
+					<speciality>стоматолог-хирург</speciality>
+					<adult_appointment>true</adult_appointment>
+					<is_base_service>false</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
+		<!-- АВЕТИСЯН: Коронка металлокерамическая -->
+		<offer id="offer_avet_crown_mk">
+			<url>https://arkada-med.ru/avetisyan_gevorg?offer-id=crown-mk</url>
+			<appointment>true</appointment>
+			<price>
+				<base_price>14000</base_price>
+				<currency>RUB</currency>
+			</price>
+			<service id="svc_crown_mk"/>
+			<clinic id="clinic_arkada">
+				<doctor id="doctor_avetisyan">
+					<speciality>стоматолог-ортопед</speciality>
+					<adult_appointment>true</adult_appointment>
+					<is_base_service>false</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
+		<!-- АВЕТИСЯН: Коронка циркониевая -->
+		<offer id="offer_avet_crown_zr">
+			<url>https://arkada-med.ru/avetisyan_gevorg?offer-id=crown-zr</url>
+			<appointment>true</appointment>
+			<price>
+				<base_price>35000</base_price>
+				<currency>RUB</currency>
+			</price>
+			<service id="svc_crown_zr"/>
+			<clinic id="clinic_arkada">
+				<doctor id="doctor_avetisyan">
+					<speciality>стоматолог-ортопед</speciality>
+					<adult_appointment>true</adult_appointment>
+					<is_base_service>false</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
+		<!-- АВЕТИСЯН: Удаление зуба -->
+		<offer id="offer_avet_removal">
+			<url>https://arkada-med.ru/avetisyan_gevorg?offer-id=removal</url>
+			<appointment>true</appointment>
+			<price>
+				<base_price>4000</base_price>
+				<currency>RUB</currency>
+			</price>
+			<service id="svc_removal_mid"/>
+			<clinic id="clinic_arkada">
+				<doctor id="doctor_avetisyan">
+					<speciality>стоматолог-хирург</speciality>
+					<adult_appointment>true</adult_appointment>
+					<is_base_service>false</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
 
-            <!-- ===================== ОСИПЯН АРМЕН РУБЕНОВИЧ ===================== -->
-            <!-- Оффер 1: Первичный приём -->
-            <offer id="vrach115" group_id="94726">
-                <n>Осипян Армен Рубенович</n>
-                <url>https://arkada-med.ru/osipyan_armen</url>
-                <price from="true">0</price>
-                <oldprice>0</oldprice>
-                <currencyId>RUR</currencyId>
-                <sales_notes>Первичный прием — бесплатно</sales_notes>
-                <set-ids>ortoped,terapevt</set-ids>
-                <picture>https://static.tildacdn.com/tild6265-6362-4135-a337-323461376233/OsipyanAR_1_ArkadaMe.png</picture>
-                <description>Опытный врач-стоматолог, ведет прием как терапевт и ортопед. Лечит кариес, пульпит, периодонтит и заболевания пародонта в полном объёме. Занимается восстановлением и протезированием зубов, диагностикой и восстановлением альвеолярной костной системы. Ведёт приём пациентов с 2001 года.</description>
-                <categoryId>1</categoryId>
-                <param name="Фамилия">Осипян</param>
-                <param name="Имя">Армен</param>
-                <param name="Отчество">Рубенович</param>
-                <param name="Начало карьеры">2001-09-10</param>
-                <param name="Город">г. Москва</param>
-                <param name="Взрослый врач">true</param>
-                <param name="Ссылка на профиль врача">https://arkada-med.ru/osipyan_armen</param>
-                <param name="Город клиники">г. Москва</param>
-                <param name="Адрес клиники">пр-т Буденного, д.37, к. 1</param>
-                <param name="Название клиники">«Аркада-Мед»</param>
-                <param name="Возможность записи">true</param>
-                <param name="Телефон для записи">+7(495)365-19-29</param>
-            </offer>
-            <!-- Оффер 2: Лечение кариеса -->
-            <offer id="vrach115_ter" group_id="94726">
-                <n>Осипян Армен Рубенович</n>
-                <url>https://arkada-med.ru/osipyan_armen?offer-id=ter</url>
-                <price from="true">5000</price>
-                <oldprice>5000</oldprice>
-                <currencyId>RUR</currencyId>
-                <sales_notes>Лечение кариеса</sales_notes>
-                <set-ids>terapevt</set-ids>
-                <picture>https://static.tildacdn.com/tild6265-6362-4135-a337-323461376233/OsipyanAR_1_ArkadaMe.png</picture>
-                <description>Лечение кариеса: пломба световой полимеризации на одну поверхность — 5 000 руб., на две — 6 000 руб., на три и более — 7 000 руб. Лечение пульпита и периодонтита. Комплексная чистка — 7 000 руб. Консультация — бесплатно.</description>
-                <categoryId>1</categoryId>
-                <param name="Фамилия">Осипян</param>
-                <param name="Имя">Армен</param>
-                <param name="Отчество">Рубенович</param>
-                <param name="Начало карьеры">2001-09-10</param>
-                <param name="Город">г. Москва</param>
-                <param name="Взрослый врач">true</param>
-                <param name="Ссылка на профиль врача">https://arkada-med.ru/osipyan_armen</param>
-                <param name="Город клиники">г. Москва</param>
-                <param name="Адрес клиники">пр-т Буденного, д.37, к. 1</param>
-                <param name="Название клиники">«Аркада-Мед»</param>
-                <param name="Возможность записи">true</param>
-                <param name="Телефон для записи">+7(495)365-19-29</param>
-            </offer>
-            <!-- Оффер 3: Протезирование -->
-            <offer id="vrach115_prot" group_id="94726">
-                <n>Осипян Армен Рубенович</n>
-                <url>https://arkada-med.ru/osipyan_armen?offer-id=prot</url>
-                <price from="true">14000</price>
-                <oldprice>14000</oldprice>
-                <currencyId>RUR</currencyId>
-                <sales_notes>Протезирование зубов</sales_notes>
-                <set-ids>ortoped</set-ids>
-                <picture>https://static.tildacdn.com/tild6265-6362-4135-a337-323461376233/OsipyanAR_1_ArkadaMe.png</picture>
-                <description>Протезирование: коронка металлокерамическая — от 14 000 руб., коронка циркониевая — 35 000 руб., съёмный протез — от 28 000 руб. Консультация ортопеда — бесплатно.</description>
-                <categoryId>1</categoryId>
-                <param name="Фамилия">Осипян</param>
-                <param name="Имя">Армен</param>
-                <param name="Отчество">Рубенович</param>
-                <param name="Начало карьеры">2001-09-10</param>
-                <param name="Город">г. Москва</param>
-                <param name="Взрослый врач">true</param>
-                <param name="Ссылка на профиль врача">https://arkada-med.ru/osipyan_armen</param>
-                <param name="Город клиники">г. Москва</param>
-                <param name="Адрес клиники">пр-т Буденного, д.37, к. 1</param>
-                <param name="Название клиники">«Аркада-Мед»</param>
-                <param name="Возможность записи">true</param>
-                <param name="Телефон для записи">+7(495)365-19-29</param>
-            </offer>
+		<!-- ===== АКИМОВ: Первичный приём хирурга (базовая) ===== -->
+		<offer id="offer_akim_consult">
+			<url>https://arkada-med.ru/akimov_sergey</url>
+			<appointment>true</appointment>
+			<service id="svc_consult_surg"/>
+			<clinic id="clinic_arkada">
+				<doctor id="doctor_akimov">
+					<speciality>стоматолог-хирург</speciality>
+					<adult_appointment>true</adult_appointment>
+					<is_base_service>true</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
+		<!-- АКИМОВ: Удаление зуба -->
+		<offer id="offer_akim_removal">
+			<url>https://arkada-med.ru/akimov_sergey?offer-id=removal</url>
+			<appointment>true</appointment>
+			<price>
+				<base_price>4000</base_price>
+				<currency>RUB</currency>
+			</price>
+			<service id="svc_removal_mid"/>
+			<clinic id="clinic_arkada">
+				<doctor id="doctor_akimov">
+					<speciality>стоматолог-хирург</speciality>
+					<adult_appointment>true</adult_appointment>
+					<is_base_service>false</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
+		<!-- АКИМОВ: Удаление зуба мудрости -->
+		<offer id="offer_akim_wisdom">
+			<url>https://arkada-med.ru/akimov_sergey?offer-id=wisdom</url>
+			<appointment>true</appointment>
+			<price>
+				<base_price>8000</base_price>
+				<currency>RUB</currency>
+			</price>
+			<service id="svc_removal_wisdom"/>
+			<clinic id="clinic_arkada">
+				<doctor id="doctor_akimov">
+					<speciality>стоматолог-хирург</speciality>
+					<adult_appointment>true</adult_appointment>
+					<is_base_service>false</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
+		<!-- АКИМОВ: Имплантация Hi-Tec -->
+		<offer id="offer_akim_impl">
+			<url>https://arkada-med.ru/akimov_sergey?offer-id=impl</url>
+			<appointment>true</appointment>
+			<price>
+				<base_price>35000</base_price>
+				<currency>RUB</currency>
+			</price>
+			<service id="svc_implant_hitec"/>
+			<clinic id="clinic_arkada">
+				<doctor id="doctor_akimov">
+					<speciality>стоматолог-хирург</speciality>
+					<adult_appointment>true</adult_appointment>
+					<is_base_service>false</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
 
-        </offers>
-    </shop>
-</yml_catalog>
+		<!-- ===== ШКУРАТ: Первичный приём ортодонта (базовая) ===== -->
+		<offer id="offer_shkurat_consult">
+			<url>https://arkada-med.ru/shkurat_olga</url>
+			<appointment>true</appointment>
+			<service id="svc_consult_ortod"/>
+			<clinic id="clinic_arkada">
+				<doctor id="doctor_shkurat">
+					<speciality>ортодонт</speciality>
+					<children_appointment>true</children_appointment>
+					<adult_appointment>true</adult_appointment>
+					<is_base_service>true</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
+		<!-- ШКУРАТ: Брекеты металлические -->
+		<offer id="offer_shkurat_brk_metal">
+			<url>https://arkada-med.ru/shkurat_olga?offer-id=brk-metal</url>
+			<appointment>true</appointment>
+			<price>
+				<base_price>75000</base_price>
+				<currency>RUB</currency>
+			</price>
+			<service id="svc_brk_metal"/>
+			<clinic id="clinic_arkada">
+				<doctor id="doctor_shkurat">
+					<speciality>ортодонт</speciality>
+					<children_appointment>true</children_appointment>
+					<adult_appointment>true</adult_appointment>
+					<is_base_service>false</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
+		<!-- ШКУРАТ: Брекеты эстетические -->
+		<offer id="offer_shkurat_brk_est">
+			<url>https://arkada-med.ru/shkurat_olga?offer-id=brk-est</url>
+			<appointment>true</appointment>
+			<price>
+				<base_price>105000</base_price>
+				<currency>RUB</currency>
+			</price>
+			<service id="svc_brk_estetic"/>
+			<clinic id="clinic_arkada">
+				<doctor id="doctor_shkurat">
+					<speciality>ортодонт</speciality>
+					<children_appointment>true</children_appointment>
+					<adult_appointment>true</adult_appointment>
+					<is_base_service>false</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
+		<!-- ШКУРАТ: Элайнеры -->
+		<offer id="offer_shkurat_aligner">
+			<url>https://arkada-med.ru/shkurat_olga?offer-id=aligner</url>
+			<appointment>true</appointment>
+			<price>
+				<base_price>85000</base_price>
+				<currency>RUB</currency>
+			</price>
+			<service id="svc_aligner_quick"/>
+			<clinic id="clinic_arkada">
+				<doctor id="doctor_shkurat">
+					<speciality>ортодонт</speciality>
+					<children_appointment>true</children_appointment>
+					<adult_appointment>true</adult_appointment>
+					<is_base_service>false</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
+
+		<!-- ===== МАЛЮТИНА: Первичный приём ортопеда (базовая) ===== -->
+		<offer id="offer_mal_consult_ort">
+			<url>https://arkada-med.ru/malyutina_tatyana</url>
+			<appointment>true</appointment>
+			<service id="svc_consult_ort"/>
+			<clinic id="clinic_arkada">
+				<doctor id="doctor_malyutina">
+					<speciality>стоматолог-ортопед</speciality>
+					<adult_appointment>true</adult_appointment>
+					<is_base_service>true</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
+		<!-- МАЛЮТИНА: Первичный приём терапевта (базовая) -->
+		<offer id="offer_mal_consult_ter">
+			<url>https://arkada-med.ru/malyutina_tatyana?offer-id=ter</url>
+			<appointment>true</appointment>
+			<service id="svc_consult_ter"/>
+			<clinic id="clinic_arkada">
+				<doctor id="doctor_malyutina">
+					<speciality>стоматолог-терапевт</speciality>
+					<adult_appointment>true</adult_appointment>
+					<is_base_service>true</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
+		<!-- МАЛЮТИНА: Коронка металлокерамическая -->
+		<offer id="offer_mal_crown_mk">
+			<url>https://arkada-med.ru/malyutina_tatyana?offer-id=crown-mk</url>
+			<appointment>true</appointment>
+			<price>
+				<base_price>14000</base_price>
+				<currency>RUB</currency>
+			</price>
+			<service id="svc_crown_mk"/>
+			<clinic id="clinic_arkada">
+				<doctor id="doctor_malyutina">
+					<speciality>стоматолог-ортопед</speciality>
+					<adult_appointment>true</adult_appointment>
+					<is_base_service>false</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
+		<!-- МАЛЮТИНА: Коронка циркониевая -->
+		<offer id="offer_mal_crown_zr">
+			<url>https://arkada-med.ru/malyutina_tatyana?offer-id=crown-zr</url>
+			<appointment>true</appointment>
+			<price>
+				<base_price>35000</base_price>
+				<currency>RUB</currency>
+			</price>
+			<service id="svc_crown_zr"/>
+			<clinic id="clinic_arkada">
+				<doctor id="doctor_malyutina">
+					<speciality>стоматолог-ортопед</speciality>
+					<adult_appointment>true</adult_appointment>
+					<is_base_service>false</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
+		<!-- МАЛЮТИНА: Лечение кариеса -->
+		<offer id="offer_mal_caries">
+			<url>https://arkada-med.ru/malyutina_tatyana?offer-id=caries</url>
+			<appointment>true</appointment>
+			<price>
+				<base_price>5000</base_price>
+				<currency>RUB</currency>
+			</price>
+			<service id="svc_caries_1"/>
+			<clinic id="clinic_arkada">
+				<doctor id="doctor_malyutina">
+					<speciality>стоматолог-терапевт</speciality>
+					<adult_appointment>true</adult_appointment>
+					<is_base_service>false</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
+		<!-- МАЛЮТИНА: Съёмный протез -->
+		<offer id="offer_mal_prosthesis">
+			<url>https://arkada-med.ru/malyutina_tatyana?offer-id=prosthesis</url>
+			<appointment>true</appointment>
+			<price>
+				<base_price>28000</base_price>
+				<currency>RUB</currency>
+			</price>
+			<service id="svc_prosthesis"/>
+			<clinic id="clinic_arkada">
+				<doctor id="doctor_malyutina">
+					<speciality>стоматолог-ортопед</speciality>
+					<adult_appointment>true</adult_appointment>
+					<is_base_service>false</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
+
+		<!-- ===== ОСИПЯН: Первичный приём терапевта (базовая) ===== -->
+		<offer id="offer_osip_consult_ter">
+			<url>https://arkada-med.ru/osipyan_armen</url>
+			<appointment>true</appointment>
+			<service id="svc_consult_ter"/>
+			<clinic id="clinic_arkada">
+				<doctor id="doctor_osipyan">
+					<speciality>стоматолог-терапевт</speciality>
+					<adult_appointment>true</adult_appointment>
+					<is_base_service>true</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
+		<!-- ОСИПЯН: Первичный приём ортопеда (базовая) -->
+		<offer id="offer_osip_consult_ort">
+			<url>https://arkada-med.ru/osipyan_armen?offer-id=ort</url>
+			<appointment>true</appointment>
+			<service id="svc_consult_ort"/>
+			<clinic id="clinic_arkada">
+				<doctor id="doctor_osipyan">
+					<speciality>стоматолог-ортопед</speciality>
+					<adult_appointment>true</adult_appointment>
+					<is_base_service>true</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
+		<!-- ОСИПЯН: Лечение кариеса -->
+		<offer id="offer_osip_caries">
+			<url>https://arkada-med.ru/osipyan_armen?offer-id=caries</url>
+			<appointment>true</appointment>
+			<price>
+				<base_price>5000</base_price>
+				<currency>RUB</currency>
+			</price>
+			<service id="svc_caries_1"/>
+			<clinic id="clinic_arkada">
+				<doctor id="doctor_osipyan">
+					<speciality>стоматолог-терапевт</speciality>
+					<adult_appointment>true</adult_appointment>
+					<is_base_service>false</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
+		<!-- ОСИПЯН: Коронка металлокерамическая -->
+		<offer id="offer_osip_crown_mk">
+			<url>https://arkada-med.ru/osipyan_armen?offer-id=crown-mk</url>
+			<appointment>true</appointment>
+			<price>
+				<base_price>14000</base_price>
+				<currency>RUB</currency>
+			</price>
+			<service id="svc_crown_mk"/>
+			<clinic id="clinic_arkada">
+				<doctor id="doctor_osipyan">
+					<speciality>стоматолог-ортопед</speciality>
+					<adult_appointment>true</adult_appointment>
+					<is_base_service>false</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
+		<!-- ОСИПЯН: Комплексная чистка -->
+		<offer id="offer_osip_cleaning">
+			<url>https://arkada-med.ru/osipyan_armen?offer-id=cleaning</url>
+			<appointment>true</appointment>
+			<price>
+				<base_price>7000</base_price>
+				<currency>RUB</currency>
+			</price>
+			<service id="svc_cleaning"/>
+			<clinic id="clinic_arkada">
+				<doctor id="doctor_osipyan">
+					<speciality>стоматолог-терапевт</speciality>
+					<adult_appointment>true</adult_appointment>
+					<is_base_service>false</is_base_service>
+				</doctor>
+			</clinic>
+		</offer>
+	</offers>
+</shop>
