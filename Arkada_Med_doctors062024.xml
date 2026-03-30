@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shop version="2.0" date="2026-03-30 00:10">
-	<n>Аркада-Мед</n>
+	<name>Аркада-Мед</name>
 	<company>ООО «Аркада-Мед»</company>
 	<url>https://arkada-med.ru/</url>
 	<picture>https://static.tildacdn.com/tild3265-3163-4830-b437-323336626362/ArkadaMedLogo.png</picture>
@@ -8,7 +8,7 @@
 
 	<doctors>
 		<doctor id="doctor_avetisyan">
-			<n>Аветисян Геворг Норикович</n>
+			<name>Аветисян Геворг Норикович</name>
 			<first_name>Геворг</first_name>
 			<surname>Аветисян</surname>
 			<patronymic>Норикович</patronymic>
@@ -16,7 +16,7 @@
 			<description>Главный врач клиники «Аркада-Мед». Опытный врач-стоматолог широкого профиля. Проводит удаление зубов любой сложности, зубосохраняющие операции, синус-лифтинг, костную пластику, дентальное протезирование, имплантацию.</description>
 		</doctor>
 		<doctor id="doctor_akimov">
-			<n>Акимов Сергей Викторович</n>
+			<name>Акимов Сергей Викторович</name>
 			<first_name>Сергей</first_name>
 			<surname>Акимов</surname>
 			<patronymic>Викторович</patronymic>
@@ -24,7 +24,7 @@
 			<description>Хирург-стоматолог с опытом работы более 30 лет. Проводит консультации с чтением компьютерной томографии и составлением комплексного плана лечения. Удаление зубов любой сложности, дентальная имплантация, костная пластика, пластическая хирургия мягких тканей.</description>
 		</doctor>
 		<doctor id="doctor_shkurat">
-			<n>Шкурат Ольга Владимировна</n>
+			<name>Шкурат Ольга Владимировна</name>
 			<first_name>Ольга</first_name>
 			<surname>Шкурат</surname>
 			<patronymic>Владимировна</patronymic>
@@ -32,7 +32,7 @@
 			<description>Врач-ортодонт. Лечение на брекет-системах и элайнерах для детей и взрослых. Исправление прикуса, выравнивание зубов. Лечение кариеса молочных и постоянных зубов, профессиональная гигиена, аппаратное отбеливание.</description>
 		</doctor>
 		<doctor id="doctor_malyutina">
-			<n>Малютина Татьяна Александровна</n>
+			<name>Малютина Татьяна Александровна</name>
 			<first_name>Татьяна</first_name>
 			<surname>Малютина</surname>
 			<patronymic>Александровна</patronymic>
@@ -40,7 +40,7 @@
 			<description>Врач-стоматолог с опытом работы более 40 лет. Диагностика заболеваний полости рта и ВНЧС, работа с артикулятором и внутриротовым сканером, изготовление коронок, накладок, вкладок, виниров, тотальное протезирование, съёмные протезы.</description>
 		</doctor>
 		<doctor id="doctor_osipyan">
-			<n>Осипян Армен Рубенович</n>
+			<name>Осипян Армен Рубенович</name>
 			<first_name>Армен</first_name>
 			<surname>Осипян</surname>
 			<patronymic>Рубенович</patronymic>
@@ -53,7 +53,7 @@
 		<clinic id="clinic_arkada">
 			<url>https://arkada-med.ru/</url>
 			<picture>https://static.tildacdn.com/tild3265-3163-4830-b437-323336626362/ArkadaMedLogo.png</picture>
-			<n>Аркада-Мед</n>
+			<name>Аркада-Мед</name>
 			<city>г. Москва</city>
 			<address>пр-т Буденного, д.37, к. 1</address>
 			<email>service@arkada-med.ru</email>
@@ -63,82 +63,82 @@
 
 	<services>
 		<service id="svc_consult_ter">
-			<n>Прием врача-стоматолога-терапевта первичный</n>
+			<name>Прием врача-стоматолога-терапевта первичный</name>
 			<gov_id>В01.065.001</gov_id>
 			<description>Первичный осмотр и консультация врача-стоматолога-терапевта</description>
 		</service>
 		<service id="svc_consult_ort">
-			<n>Прием врача-стоматолога-ортопеда первичный</n>
+			<name>Прием врача-стоматолога-ортопеда первичный</name>
 			<gov_id>В01.066.002</gov_id>
 			<description>Первичный осмотр и консультация врача-стоматолога-ортопеда</description>
 		</service>
 		<service id="svc_consult_surg">
-			<n>Прием врача-стоматолога-хирурга первичный</n>
+			<name>Прием врача-стоматолога-хирурга первичный</name>
 			<gov_id>В01.067.001</gov_id>
 			<description>Первичный осмотр и консультация врача-стоматолога-хирурга</description>
 		</service>
 		<service id="svc_consult_ortod">
-			<n>Прием врача-стоматолога-ортодонта первичный</n>
+			<name>Прием врача-стоматолога-ортодонта первичный</name>
 			<gov_id>В01.063.001</gov_id>
 			<description>Первичный осмотр и консультация врача-стоматолога-ортодонта</description>
 		</service>
 		<service id="svc_caries_1">
-			<n>Лечение кариеса (одна поверхность)</n>
+			<name>Лечение кариеса (одна поверхность)</name>
 			<gov_id>А16.07.002</gov_id>
 			<description>Лечение кариеса пломбой световой полимеризации на одну поверхность</description>
 		</service>
 		<service id="svc_implant_hitec">
-			<n>Имплантация Hi-Tec (Израиль)</n>
+			<name>Имплантация Hi-Tec (Израиль)</name>
 			<gov_id>А16.07.054</gov_id>
 			<description>Операция установки одного дентального импланта Hi-Tec (Израиль)</description>
 		</service>
 		<service id="svc_implant_dentium">
-			<n>Имплантация Dentium (Корея)</n>
+			<name>Имплантация Dentium (Корея)</name>
 			<gov_id>А16.07.054</gov_id>
 			<description>Операция установки одного дентального импланта Dentium (Корея)</description>
 		</service>
 		<service id="svc_crown_mk">
-			<n>Коронка металлокерамическая</n>
+			<name>Коронка металлокерамическая</name>
 			<gov_id>А23.07.002</gov_id>
 			<description>Изготовление и установка металлокерамической коронки</description>
 		</service>
 		<service id="svc_crown_zr">
-			<n>Коронка циркониевая</n>
+			<name>Коронка циркониевая</name>
 			<gov_id>А16.07.005</gov_id>
 			<description>Изготовление и установка циркониевой коронки</description>
 		</service>
 		<service id="svc_removal_mid">
-			<n>Удаление зуба средней сложности</n>
+			<name>Удаление зуба средней сложности</name>
 			<gov_id>А16.07.001</gov_id>
 			<description>Удаление постоянного зуба средней сложности</description>
 		</service>
 		<service id="svc_removal_wisdom">
-			<n>Удаление зуба мудрости</n>
+			<name>Удаление зуба мудрости</name>
 			<gov_id>А16.07.001</gov_id>
 			<description>Удаление зуба мудрости</description>
 		</service>
 		<service id="svc_cleaning">
-			<n>Комплексная чистка зубов</n>
+			<name>Комплексная чистка зубов</name>
 			<gov_id>А16.07.051</gov_id>
 			<description>Комплексная чистка зубов (Air-flow + ультразвук + полировка)</description>
 		</service>
 		<service id="svc_brk_metal">
-			<n>Брекет-система металлическая лигатурная</n>
+			<name>Брекет-система металлическая лигатурная</name>
 			<gov_id>А16.07.048</gov_id>
 			<description>Металлическая брекет-система лигатурная (2 челюсти)</description>
 		</service>
 		<service id="svc_brk_estetic">
-			<n>Брекет-система эстетическая</n>
+			<name>Брекет-система эстетическая</name>
 			<gov_id>А16.07.048</gov_id>
 			<description>Эстетическая брекет-система (2 челюсти)</description>
 		</service>
 		<service id="svc_aligner_quick">
-			<n>Элайнеры Quick-one</n>
+			<name>Элайнеры Quick-one</name>
 			<gov_id>А16.07.035</gov_id>
 			<description>Каппа Quick-one (от 1 до 5 флексов), элайнеры для взрослых</description>
 		</service>
 		<service id="svc_prosthesis">
-			<n>Съемный протез</n>
+			<name>Съемный протез</name>
 			<gov_id>А16.07.035</gov_id>
 			<description>Изготовление съёмного зубного протеза</description>
 		</service>
